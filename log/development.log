@@ -3,3 +3,132 @@
 Processing ShoppingCartController#show (for 127.0.0.1 at 2010-02-04 02:36:31) [GET]
 Rendering shopping_cart/show
 Completed in 153ms (View: 146, DB: 0) | 200 OK [http://0.0.0.0/shopping_cart/show]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-04 02:58:14) [GET]
+
+ActionController::RoutingError (No route matches "/shopping_cart/show" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-04 02:59:19) [GET]
+
+ActionController::RoutingError (No route matches "/shopping_cart/show" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-04 02:59:21) [GET]
+
+ActionController::RoutingError (No route matches "/shopping_cart/show" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-04 02:59:26) [GET]
+
+ActionController::RoutingError (No route matches "/shopping_cart/show" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-04 02:59:27) [GET]
+
+ActionController::RoutingError (No route matches "/shopping_cart/show" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-04 02:59:28) [GET]
+
+ActionController::RoutingError (No route matches "/shopping_cart/show" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-04 02:59:30) [GET]
+
+ActionController::RoutingError (No route matches "/shopping_cart/show" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-04 02:59:31) [GET]
+
+ActionController::RoutingError (No route matches "/shopping_cart/show" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ShoppingCartController#show (for 127.0.0.1 at 2010-02-04 02:59:56) [GET]
+Rendering shopping_cart/show
+Completed in 82ms (View: 63, DB: 0) | 200 OK [http://0.0.0.0/shopping_cart/show]
+
+
+Processing ShoppingCartController#show (for 127.0.0.1 at 2010-02-04 03:18:03) [GET]
+Rendering shopping_cart/show
+Completed in 111ms (View: 102, DB: 0) | 200 OK [http://0.0.0.0/shopping_cart/show]
+
+
+Processing ShoppingCartController#show (for 127.0.0.1 at 2010-02-04 03:18:11) [GET]
+Rendering shopping_cart/show
+Completed in 10ms (View: 4, DB: 0) | 200 OK [http://0.0.0.0/shopping_cart/show]
+
+
+Processing ShoppingCartController#show (for 127.0.0.1 at 2010-02-04 03:18:18) [GET]
+Rendering shopping_cart/show
+Completed in 10ms (View: 3, DB: 0) | 200 OK [http://0.0.0.0/shopping_cart/show]
+
+
+Processing ShoppingCartController#show (for 127.0.0.1 at 2010-02-04 03:18:29) [GET]
+Rendering shopping_cart/show
+Completed in 151ms (View: 133, DB: 0) | 200 OK [http://0.0.0.0/shopping_cart/show]
+
+
+Processing ShoppingCartController#show (for 127.0.0.1 at 2010-02-04 03:18:33) [GET]
+Rendering shopping_cart/show
+Completed in 16ms (View: 4, DB: 0) | 200 OK [http://0.0.0.0/shopping_cart/show]
+
+
+Processing ShoppingCartController#show (for 127.0.0.1 at 2010-02-04 03:18:35) [GET]
+Rendering shopping_cart/show
+Completed in 9ms (View: 3, DB: 0) | 200 OK [http://0.0.0.0/shopping_cart/show]
+
+
+Processing ShoppingCartController#show (for 127.0.0.1 at 2010-02-04 03:18:36) [GET]
+Rendering shopping_cart/show
+Completed in 40ms (View: 29, DB: 0) | 200 OK [http://0.0.0.0/shopping_cart/show]
+
+
+Processing ShoppingCartController#show (for 127.0.0.1 at 2010-02-04 03:18:38) [GET]
+Rendering shopping_cart/show
+Completed in 46ms (View: 3, DB: 0) | 200 OK [http://0.0.0.0/shopping_cart/show]
+
+
+Processing ShoppingCartController#show (for 127.0.0.1 at 2010-02-04 03:18:48) [GET]
+Rendering shopping_cart/show
+Completed in 22ms (View: 16, DB: 0) | 200 OK [http://0.0.0.0/shopping_cart/show]
+
+
+Processing ShoppingCartController#show (for 127.0.0.1 at 2010-02-04 03:19:11) [GET]
+Rendering shopping_cart/show
+Completed in 132ms (View: 125, DB: 0) | 200 OK [http://0.0.0.0/shopping_cart/show]
+
+
+Processing ShoppingCartController#show (for 127.0.0.1 at 2010-02-04 03:21:47) [GET]
+Rendering shopping_cart/show
+Completed in 44ms (View: 37, DB: 0) | 200 OK [http://0.0.0.0/shopping_cart/show]
+
+
+Processing ShoppingCartController#show (for 127.0.0.1 at 2010-02-04 03:21:49) [GET]
+Rendering shopping_cart/show
+Completed in 44ms (View: 6, DB: 0) | 200 OK [http://0.0.0.0/shopping_cart/show]
