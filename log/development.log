@@ -152,3 +152,24 @@ Completed in 37ms (DB: 0) | 302 Found [http://0.0.0.0/shopping_cart/display_cart
 Processing ShoppingCartController#show (for 127.0.0.1 at 2010-02-04 03:38:40) [GET]
 Rendering shopping_cart/show
 Completed in 73ms (View: 46, DB: 0) | 200 OK [http://0.0.0.0/shopping_cart/show]
+
+
+Processing ShoppingCartController#show (for 127.0.0.1 at 2010-02-04 03:44:42) [GET]
+Completed in 51ms (View: 36, DB: 0) | 200 OK [http://0.0.0.0/shopping_cart/show]
+
+
+Processing ShoppingCartController#show (for 127.0.0.1 at 2010-02-04 03:47:11) [GET]
+Completed in 22ms (View: 14, DB: 0) | 200 OK [http://0.0.0.0/shopping_cart/show]
+
+
+Processing ShoppingCartController#show (for 127.0.0.1 at 2010-02-04 03:47:46) [GET]
+Completed in 34ms (View: 28, DB: 0) | 200 OK [http://0.0.0.0/shopping_cart/show]
+
+
+Processing ShoppingCartController#display_cart (for 127.0.0.1 at 2010-02-04 03:47:53) [GET]
+Redirected to http://0.0.0.0:3000/shopping_cart/show
+Completed in 101ms (DB: 0) | 302 Found [http://0.0.0.0/shopping_cart/display_cart]
+
+
+Processing ShoppingCartController#show (for 127.0.0.1 at 2010-02-04 03:47:54) [GET]
+Completed in 582ms (View: 55, DB: 0) | 200 OK [http://0.0.0.0/shopping_cart/show]

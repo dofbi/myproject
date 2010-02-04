@@ -1,6 +1,6 @@
 class ShoppingCartController < ApplicationController
   def show
-    puts 'I an the controller.'
+    render :text => '<h1>The controller rules!</h1>'
   end
   
   def display_cart
