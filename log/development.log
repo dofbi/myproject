@@ -1,0 +1,5 @@
+
+
+Processing ShoppingCartController#show (for 127.0.0.1 at 2010-02-04 02:36:31) [GET]
+Rendering shopping_cart/show
+Completed in 153ms (View: 146, DB: 0) | 200 OK [http://0.0.0.0/shopping_cart/show]
