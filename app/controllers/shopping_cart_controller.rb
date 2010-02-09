@@ -1,7 +1,9 @@
 class ShoppingCartController < ApplicationController
   def show
-    @item = "Book: Ruby on on rails For Dunies"
-    @price = 20.00
+    @item = params[:item]
+    
+    price_of = {'Book'=>20.00, 'Shirt'=>15.00, 'Cup'=>10.00}
+    @price = price_of[@item] || 0.00
   end
   
   def display_cart
