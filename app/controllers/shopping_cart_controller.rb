@@ -1,6 +1,7 @@
 class ShoppingCartController < ApplicationController
   def show
-    render :text => '<h1>The controller rules!</h1>'
+    @item = "Book: Ruby on on rails For Dunies"
+    @price = 20.00
   end
   
   def display_cart
