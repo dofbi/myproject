@@ -10,5 +10,9 @@ class ShoppingCartController < ApplicationController
     puts 'I the display_cart action'
     redirect_to :action => "show"
   end
+  
+  def ask_to_show
+    
+  end
 
 end
