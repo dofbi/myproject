@@ -198,3 +198,151 @@ Completed in 11ms (DB: 0) | 302 Found [http://0.0.0.0/shopping_cart/display_cart
 
 Processing ShoppingCartController#show (for 127.0.0.1 at 2010-02-04 23:34:04) [GET]
 Completed in 8ms (View: 2, DB: 0) | 200 OK [http://0.0.0.0/shopping_cart/show]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-09 23:09:43) [GET]
+
+ActionController::RoutingError (No route matches "/shoppingcart/" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-09 23:09:51) [GET]
+
+ActionController::RoutingError (No route matches "/shoppingcart/shoz" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-09 23:09:56) [GET]
+
+ActionController::RoutingError (No route matches "/shoppingcart/show" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ShoppingCartController#show (for 127.0.0.1 at 2010-02-09 23:10:04) [GET]
+Completed in 63ms (View: 58, DB: 0) | 200 OK [http://localhost/shopping_cart/show]
+
+
+Processing ShoppingCartController#display_cart (for 127.0.0.1 at 2010-02-09 23:10:32) [GET]
+Redirected to http://localhost:3000/shopping_cart/show
+Completed in 7ms (DB: 0) | 302 Found [http://localhost/shopping_cart/display_cart]
+
+
+Processing ShoppingCartController#show (for 127.0.0.1 at 2010-02-09 23:10:32) [GET]
+Completed in 12ms (View: 7, DB: 0) | 200 OK [http://localhost/shopping_cart/show]
+
+
+Processing ShoppingCartController#show (for 127.0.0.1 at 2010-02-09 23:10:50) [GET]
+Completed in 12ms (View: 3, DB: 0) | 200 OK [http://localhost/shopping_cart/show]
+
+
+Processing ShoppingCartController#display_cart (for 127.0.0.1 at 2010-02-09 23:10:57) [GET]
+Redirected to http://localhost:3000/shopping_cart/show
+Completed in 7ms (DB: 0) | 302 Found [http://localhost/shopping_cart/display_cart]
+
+
+Processing ShoppingCartController#show (for 127.0.0.1 at 2010-02-09 23:10:57) [GET]
+Completed in 10ms (View: 2, DB: 0) | 200 OK [http://localhost/shopping_cart/show]
+
+
+Processing ShoppingCartController#show (for 127.0.0.1 at 2010-02-09 23:26:41) [GET]
+Rendering shopping_cart/show
+Completed in 151ms (View: 146, DB: 0) | 200 OK [http://localhost/shopping_cart/show]
+
+
+Processing ShoppingCartController#show (for 127.0.0.1 at 2010-02-09 23:26:44) [GET]
+Rendering shopping_cart/show
+Completed in 20ms (View: 9, DB: 0) | 200 OK [http://localhost/shopping_cart/show]
+
+
+Processing ShoppingCartController#show (for 127.0.0.1 at 2010-02-09 23:26:47) [GET]
+Rendering shopping_cart/show
+Completed in 24ms (View: 15, DB: 0) | 200 OK [http://localhost/shopping_cart/show]
+
+
+Processing ShoppingCartController#show (for 127.0.0.1 at 2010-02-09 23:42:45) [GET]
+  Parameters: {"item"=>"Book"}
+Rendering shopping_cart/show
+Completed in 156ms (View: 151, DB: 0) | 200 OK [http://localhost/shopping_cart/show?item=Book]
+
+
+Processing ShoppingCartController#show (for 127.0.0.1 at 2010-02-09 23:42:56) [GET]
+  Parameters: {"item"=>"Cup"}
+Rendering shopping_cart/show
+Completed in 15ms (View: 10, DB: 0) | 200 OK [http://localhost/shopping_cart/show?item=Cup]
+
+
+Processing ShoppingCartController#show (for 127.0.0.1 at 2010-02-09 23:43:00) [GET]
+  Parameters: {"item"=>"Cupp"}
+Rendering shopping_cart/show
+Completed in 14ms (View: 9, DB: 0) | 200 OK [http://localhost/shopping_cart/show?item=Cupp]
+
+
+Processing ShoppingCartController#show (for 127.0.0.1 at 2010-02-09 23:43:17) [GET]
+  Parameters: {"item"=>"Shirt"}
+Rendering shopping_cart/show
+Completed in 14ms (View: 9, DB: 0) | 200 OK [http://localhost/shopping_cart/show?item=Shirt]
+
+
+Processing ApplicationController#ask_to_show (for 127.0.0.1 at 2010-02-10 00:01:20) [GET]
+
+SyntaxError (/Users/dofbi/workspace/myproject/app/controllers/shopping_cart_controller.rb:14: syntax error, unexpected tIDENTIFIER, expecting '\n' or ';'
+/Users/dofbi/workspace/myproject/app/controllers/shopping_cart_controller.rb:18: syntax error, unexpected kEND, expecting $end):
+  
+
+Rendered rescues/_trace (257.2ms)
+Rendered rescues/_request_and_response (5.1ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#ask_to_show (for 127.0.0.1 at 2010-02-10 00:01:48) [GET]
+
+SyntaxError (/Users/dofbi/workspace/myproject/app/controllers/shopping_cart_controller.rb:14: syntax error, unexpected tIDENTIFIER, expecting '\n' or ';'
+/Users/dofbi/workspace/myproject/app/controllers/shopping_cart_controller.rb:18: syntax error, unexpected kEND, expecting $end):
+  
+
+Rendered rescues/_trace (98.6ms)
+Rendered rescues/_request_and_response (5.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ShoppingCartController#ask_to_show (for 127.0.0.1 at 2010-02-10 00:02:17) [GET]
+Rendering shopping_cart/ask_to_show
+Completed in 67ms (View: 45, DB: 0) | 200 OK [http://localhost/shopping_cart/ask_to_show]
+
+
+Processing ShoppingCartController#ask_to_show (for 127.0.0.1 at 2010-02-10 00:02:19) [GET]
+Rendering shopping_cart/ask_to_show
+Completed in 12ms (View: 4, DB: 0) | 200 OK [http://localhost/shopping_cart/ask_to_show]
+
+
+Processing ShoppingCartController#ask_to_show (for 127.0.0.1 at 2010-02-10 00:04:31) [GET]
+Rendering shopping_cart/ask_to_show
+Completed in 19ms (View: 14, DB: 0) | 200 OK [http://localhost/shopping_cart/ask_to_show]
+
+
+Processing ShoppingCartController#ask_to_show (for 127.0.0.1 at 2010-02-10 00:04:33) [GET]
+Rendering shopping_cart/ask_to_show
+Completed in 12ms (View: 4, DB: 0) | 200 OK [http://localhost/shopping_cart/ask_to_show]
+
+
+Processing ShoppingCartController#ask_to_show (for 127.0.0.1 at 2010-02-10 00:04:35) [GET]
+Rendering shopping_cart/ask_to_show
+Completed in 12ms (View: 4, DB: 0) | 200 OK [http://localhost/shopping_cart/ask_to_show]
+
+
+Processing ShoppingCartController#show (for 127.0.0.1 at 2010-02-10 00:05:29) [GET]
+  Parameters: {"item"=>"Book"}
+Rendering shopping_cart/show
+Completed in 42ms (View: 34, DB: 0) | 200 OK [http://localhost/shopping_cart/show?item=Book]
+
+
+Processing ShoppingCartController#show (for 127.0.0.1 at 2010-02-10 00:05:59) [GET]
+  Parameters: {"item"=>"Cup"}
+Rendering shopping_cart/show
+Completed in 25ms (View: 16, DB: 0) | 200 OK [http://localhost/shopping_cart/show?item=Cup]
